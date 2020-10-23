@@ -1,17 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>In The University</title>
+    <link rel="stylesheet" href="Styles/styleIndex.css">
+    <link rel="shortcut icon" href="Imagenes/CompensarLogo.png" type="image/x-icon">
 </head>
+
 <body>
-    <h1><center>Inicio de sesión</center></h1>
-    <center><img  src="https://d500.epimg.net/cincodias/imagenes/2016/07/04/lifestyle/1467646262_522853_1467646344_noticia_normal.jpg" width="250"></center>
-    <h4> <center> Nombres y Apellidos <div> <input type="text" name="NyA"> </div> </center></h4>
-    <h4> <center>Correo electronico <div> <input type="text" name="CE"> </div> </center></h4>
-    <h4> <center> Carrera <div><input type="text" name="CR"> </div> </center></h4>
-   <center> <button><a href="Principal.html"> <h3> Confirmar </h3></a> </button> </center>
+    <div class="gridContainer">
+        <div class="itemSesion">
+            <img src="Imagenes/In The University.png" alt="" width="300px">
+            <h4>Nombres y Apellidos</h4>
+            <input type="text" name="NombreUsuario">
+            <h4>Correo electronico</h4>
+            <input type="email" name="CorreoElectronico">
+            <h4>Carrera </h4>
+            <select name="select">
+                <option value="value1" selected>Ingenieria de Software</option>
+                <option value="value2">Ingenieria de Sistemas</option>
+                <option value="value3">Ingenieria de telecomunicaciones</option>
+            </select>
+            <div class="itemBoton">
+                <a href="Principal.html"><button>Confirmar</button></a>
+            </div>
+        </div>
+        <div class="itemTitulo">
+
+        </div>
+    </div>
+
 
 </body>
+
 </html>

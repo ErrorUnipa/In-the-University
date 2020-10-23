@@ -1,0 +1,14 @@
+.contenedorGrid{
+    display: grid;
+    grid-template-areas:"titulo titulo titulo titulo"
+                        "vacio1 carrusel carrusel vacio2"
+                        "vacio1 texto0 imagen0 vacio2";
+    grid-gap: 10px;
+    padding: 0px;
+}
+.titulo{
+    grid-area: titulo;
+    display: grid;
+    grid-template-areas: "inicio reglas jugar nosotros";
+    background: rgba(255, 166, 0, 0.432);
+}
